@@ -1,0 +1,224 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans";
+}
+
+body{
+    background-color: #0e091b /*rgb(27, 27, 27);*/
+}
+
+.navbar{
+    top: 0;
+    position: sticky;
+}
+
+.menu{
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #0e091b;/*rgb(41, 41, 41);*/
+}
+
+.texto{
+    text-decoration: none;
+}
+
+.texto a{
+    font-size: medium;
+    margin-left: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.texto a:hover {
+    color: #6610f2;
+}
+
+
+.sobre_eu{
+    background-image: url(../images/2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    display: flex;
+    height: 650px;
+    /* filter: grayscale(100%); */
+}
+
+.esquerda{
+    padding-top:60px;
+    padding-left: 20px; /*20 */
+    width: 512px;
+}
+
+.esquerda h1{
+    text-align: center;
+    color: aliceblue;
+    font-size:50px;
+}
+
+.esquerda h3{
+    text-align: center;
+    color: dimgray;
+    font-size:18px;
+}
+
+.esquerda p{
+    text-align: justify;
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.esquerda ul li{
+    text-align: justify;
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.icone{
+    margin-top: 10px;
+    display: flex;
+}
+
+
+.icone img{
+    width: 30px;
+}
+
+.vazio{
+    width: 400px;
+}
+
+.direita{
+    height: 400px;
+    width: 512px;
+}
+
+.projetos{
+    background-image: url(../images/4.gif);
+    padding-top: 30px;
+    height: 500px;
+}
+
+.projetos h2{
+    text-align: center;
+    color: aliceblue;
+}
+
+.projetos h3{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.projetos h3:hover{
+    color:#6610f2
+}
+
+.projetos h5{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.projetos p{
+    color: aliceblue;
+    font-size: 20px ;
+}
+
+.projetos a{
+    color: #6610f2;
+    font-size: 20px ;
+}
+
+/* */
+
+.servicos{
+    background-image: url(../images/5.gif);
+    padding-top: 30px;
+    height: 500px;
+}
+
+.servicos h2{
+    text-align: center;
+    color: aliceblue;
+}
+
+.servicos h3{
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.servicos h5{
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.servicos p{
+    color: aliceblue;
+    font-size: 20px ;
+}
+
+.portfolio{
+    padding: 30px;
+    height: 200px;
+    display: flex;
+
+}
+
+.janela{
+    border: solid;
+    border-color:aliceblue;
+    width: 200px;
+    height: 120px;
+    background-color: black;
+}
+
+.contentform{
+    background-image: url(../images/1.gif);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    
+}
+
+.contentform p{
+    text-align: justify;
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.tituloform{
+    padding: 20px;
+    text-align: center;
+}
+
+.tituloform h2{
+   color: aliceblue;
+}
+
+.footer{
+    margin-top: 0px;
+    background-color: black;
+    height: 100px;
+}
+
+.footer_limite{
+    padding: 50px;
+    text-align: center;
+    width: 1024px;
+    height: 100px;
+}
+
+.footer_limite p{
+    font-size: smaller;
+    color: aliceblue;
+}
