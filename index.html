@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfólio</title>
         <link rel="stylesheet" href="./css/meu_estilo.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
     </head>
     <body>
         <div class="tudo">
@@ -43,7 +44,7 @@
                             software de forma a entregar mais valor na minha atuação como cientista 
                             e engenheiro de dados. Você pode baixar meu currículo <a href="./pdf/cr_fernando.pdf">aqui</a>
                         </p>
-                        <h3>Matérias cursadas no atual período (2°/2022)</h3>
+                        <h5>Matérias cursadas no atual período (2°/2022)</h5>
                         <ul>
                             <li>Algorítmos</li>
                             <li>Engenharia de requisitos e análise de sistemas</li>
@@ -72,8 +73,8 @@
                 <h2>PROJETOS</h2>
                 <div class="portfolio">
                     <!-- Tabela -->
-                    <table >
-                        <tr>
+                    <table>
+                        <tr class="table_1">
                             <td>    
                                 <ul type="circle">
                                     <li><a href=""><img src="./images/rossmann.png" alt="" class="janela"></a></li>
@@ -91,7 +92,7 @@
                                 </p>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="table_2">
                             <td>    
                                 <ul type="circle">
                                     <li><a href=""><img src="./images/netflix.png" alt="" class="janela"></a></li>
@@ -110,7 +111,7 @@
                                 </p>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="table_3">
                             <td>    
                                 <ul type="circle">
                                     <li><a href=""><img src="./images/Blog_Banner.png" alt="" class="janela"></a></li>
@@ -129,6 +130,25 @@
                                 </p>
                             </td>
                         </tr>
+                        <tr class="table_4">
+                            <td>    
+                                <ul type="circle">
+                                    <li><a href=""><img src="./images/insurance.jpeg" alt="" class="janela"></a></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <a href="https://fhfraga.github.io/projetos/health_insurance_prediction.html"> 
+                                    <h3>Projeto de aquisição de seguro de veículos por clientes de seguro de saúde</h3>
+                                </a>
+                                <h5>BIG DATA ANALYTICS & MACHINE LEARNING</h5>
+                                <p>
+                                    Neste projeto analisamos os dados de uma seguradora de saúde que 
+                                    deseja vender para seus clientes também um seguro de veículos. 
+                                    Essa seguradores deseja saber quais clientes aceitariam o seguro 
+                                    baseado nos dados de seu ano anterior.
+                                </p>
+                            </td>
+                        </tr>
                     </table>
                     <!-- Fim da tabela -->
                     
@@ -143,7 +163,7 @@
                 <div class="portfolio">
                     <!-- Tabela -->
                     <table >
-                        <tr>
+                        <tr class="table_1">
                             <td>    
                                 <ul type="circle">
                                     <li><a href=""><img src="./images/analise_descritiva.gif" alt="" class="janela"></a></li>
@@ -157,7 +177,7 @@
                                 </p>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="table_2">
                             <td>    
                                 <ul type="circle">
                                     <li><a href=""><img src="./images/analise_diagnostica.gif" alt="" class="janela"></a></li>
@@ -171,7 +191,7 @@
                                 </p>
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="table_3">
                             <td>    
                                 <ul type="circle">
                                     <li><a href=""><img src="./images/analise_preditiva.gif" alt="" class="janela"></a></li>
@@ -186,6 +206,21 @@
                                 </p>
                             </td>
                         </tr>
+                        <tr class="table_4">
+                            <td>    
+                                <ul type="circle">
+                                    <li><a href=""><img src="./images/deploy.gif" alt="" class="janela"></a></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <h3>DEPLOY DE MODELOS DE MACHINE LEARNING</h3>
+                                <p>
+                                Colocar modelos de machine learning em produção, utilizando docker, clound,
+                                criando uma arquitetura sólida e escalável e utilizando boas práticas de 
+                                desenvolvimento de software.
+                                </p>
+                            </td>
+                        </tr>
                     </table>
                     <!-- Fim da tabela -->
                     
@@ -194,56 +229,64 @@
             <!-- FIM SERVIÇOS -->
 
             <!-- CONTATO -->
-            <div class="formulario" id="contatos">
-                <div class="contentform">
-                    <div class="tituloform">
-                        <h2>CONTATO</h2>
-                        <p>
-                            Entre em contanto que será um prazer falar com você.
-                        </p>
-                    </div>
+            <div class="contentform" id="contatos">
+                <div class="tituloform">
+                    <h2>CONTATO</h2>
+                    <p>
+                        Entre em contanto que será um prazer falar com você.
+                    </p>
+                </div>
+                <br>
+                <form class="formulario" method="post" action="mailto:f.henrique.fraga@gmail.com">
+                    Nome completo: <input type="text" size="40"> Telefone: <input type="tel" name="" id="">
+                    <br>Email: <input type="text" size="40"> 
+                    <br>Cidade: <input type="text" size="40"> 
+                    Estado:
+                    <select name="Estado"><br>
+                        <option>AC
+                        <option>AL
+                        <option>AP
+                        <option>AM
+                        <option>BA
+                        <option>CE
+                        <option>DF
+                        <option>ES    
+                        <option>GO
+                        <option>MA
+                        <option>MT
+                        <option>MS
+                        <option>MG
+                        <option>PA
+                        <option>PB
+                        <option>PR
+                        <option>PE
+                        <option>PI
+                        <option>RJ
+                        <option>RN
+                        <option>RS
+                        <option>RO
+                        <option>RR
+                        <option>SC
+                        <option>SP
+                        <option>SE
+                        <option>TO
+                    </select>
                     <br>
-                    <form method="post" action="mailto:f.henrique.fraga@gmail.com">
-                        Nome completo: <input type="text" size="40"> Telefone: <input type="tel" name="" id="">
-                        <br>
-                        <br>Email: <input type="text" size="40"> 
-                        <br>Cidade: <input type="text" size="40"> 
-                        Estado:
-                        <select name="Estado"><br>
-                            <option>AC
-                            <option>AL
-                            <option>AP
-                            <option>AM
-                            <option>BA
-                            <option>CE
-                            <option>DF
-                            <option>ES    
-                            <option>GO
-                            <option>MA
-                            <option>MT
-                            <option>MS
-                            <option>MG
-                            <option>PA
-                            <option>PB
-                            <option>PR
-                            <option>PE
-                            <option>PI
-                            <option>RJ
-                            <option>RN
-                            <option>RS
-                            <option>RO
-                            <option>RR
-                            <option>SC
-                            <option>SP
-                            <option>SE
-                            <option>TO
-                        </select><br>
-                        <br>
-                        <br>Assunto:
-                        <br><textarea name="" id="" cols="84" rows="10"></textarea>
-                        <br>
-                        <input type="submit" value="ENVIAR"> <input type="reset" value="LIMPAR">
-                    </form>
+                    <br>Assunto:
+                    <br><textarea name="" id="" cols="84" rows="10"></textarea>
+                    <br>
+                    <input type="submit" value="ENVIAR"> <input type="reset" value="LIMPAR">
+                </form>
+                <br>
+                    <p>
+                        Você também pode me encontrar pelas minhas redes.
+                    </p>
+                    <div class="icone">
+                    <a href="https://www.linkedin.com/in/fhfraga/"><img src="./images/linkedin.svg" alt=""></a>
+                    </div>
+                    <div class="icone">
+                        <a href="https://github.com/fhfraga"><img src="./images/github.svg" alt=""></a>  
+                        </div>
                 </div>
             </div>
             <!-- FIM CONTATO -->
@@ -255,7 +298,30 @@
                 </div>
             </div>
             <!-- FIM RODAPÉ -->
-
         </div>
+
+        <script>
+            ScrollReveal({
+                reset: true,
+                distance: '60px',
+                duration: 2500,
+                delay: 400
+            });
+
+            ScrollReveal().reveal('.esquerda h1', {delay: 500})
+            ScrollReveal().reveal('.esquerda h3', {delay: 1000})
+            ScrollReveal().reveal('.esquerda p', {delay: 1800})
+            ScrollReveal().reveal('.esquerda h5', {delay: 2500})
+            ScrollReveal().reveal('.esquerda ul', {delay: 3000})
+            ScrollReveal().reveal('.icone', {delay: 3500})
+            ScrollReveal().reveal('.table_1', {delay: 500, origin:'left'})
+            ScrollReveal().reveal('.table_2', {delay: 1500, origin:'left'})
+            ScrollReveal().reveal('.table_3', {delay: 2500, origin:'left'})
+            ScrollReveal().reveal('.table_4', {delay: 3500, origin:'left'})
+            ScrollReveal().reveal('.contentform h2', {delay: 1000})
+            ScrollReveal().reveal('.contentform p', {delay: 2500})
+            ScrollReveal().reveal('.formulario', {delay: 2500})
+
+        </script>
     </body>
 </html>

@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #0e091b /*rgb(27, 27, 27);*/
+    background-color: #0e091b;
 }
 
 .navbar{
@@ -18,7 +18,7 @@ body{
     height: 30px;
     padding-top: 10px;
     text-align: center;
-    background-color: #0e091b;/*rgb(41, 41, 41);*/
+    background-color: #0e091b;
 }
 
 .texto{
@@ -44,12 +44,11 @@ body{
     background-position:center ;
     display: flex;
     height: 650px;
-    /* filter: grayscale(100%); */
 }
 
 .esquerda{
     padding-top:60px;
-    padding-left: 20px; /*20 */
+    padding-left: 20px;
     width: 512px;
 }
 
@@ -60,6 +59,12 @@ body{
 }
 
 .esquerda h3{
+    text-align: center;
+    color: dimgray;
+    font-size:18px;
+}
+
+.esquerda h5{
     text-align: center;
     color: dimgray;
     font-size:18px;
@@ -101,7 +106,7 @@ body{
 .projetos{
     background-image: url(../images/4.gif);
     padding-top: 30px;
-    height: 500px;
+    height: 650px;
 }
 
 .projetos h2{
@@ -135,12 +140,10 @@ body{
     font-size: 20px ;
 }
 
-/* */
-
 .servicos{
     background-image: url(../images/5.gif);
     padding-top: 30px;
-    height: 500px;
+    height: 650px;
 }
 
 .servicos h2{
@@ -186,6 +189,7 @@ body{
     display: flex;
     flex-direction: column;
     color: aliceblue;
+    height: 550px;
     
 }
 
@@ -202,7 +206,7 @@ body{
 }
 
 .tituloform h2{
-   color: aliceblue;
+    color: aliceblue;
 }
 
 .footer{
